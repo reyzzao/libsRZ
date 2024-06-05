@@ -1,9 +1,9 @@
-package max
+package valid_text_max
 
 import (
 	"testing"
 
-	"github.com/rzjprogramador/Libs_Rzj/Go_Libs/validates/feedback"
+	"github.com/rzjprogramador/RzLibs_GO/feedback"
 )
 
 func Test_MaxText(t *testing.T) {

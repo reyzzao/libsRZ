@@ -1,9 +1,9 @@
-package min
+package valid_text_min
 
 import (
 	"errors"
 
-	"github.com/rzjprogramador/Libs_Rzj/Go_Libs/validates/feedback"
+	"github.com/rzjprogramador/RzLibs_GO/feedback"
 )
 
 func MinText(text string, length int) (string, error) {
