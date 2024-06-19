@@ -1,17 +1,21 @@
 package message
 
 type Message struct {
-	sucess     string
-	fail       string
-	processing string
-	wait       string
+	Sucess     string
+	Fail       string
+	Processing string
+	Wait       string
+	Min        string
+	Max        string
 }
 
 var StaticMessage = Message{
-	sucess:     "Sucesso!",
-	fail:       "Ops!",
-	processing: "Processando...",
-	wait:       "Aguarde!",
+	Sucess:     "Sucesso!",
+	Fail:       "Ops!",
+	Processing: "Processando...",
+	Wait:       "Aguarde!",
+	Min:        "no mínimo",
+	Max:        "no máximo",
 }
 
 // func MessageFN() Message{
