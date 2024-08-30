@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/rzjprogramador/RzLibs_GO/feedback"
-	"github.com/rzjprogramador/RzLibs_GO/message"
+	"github.com/reizzao/RzLibs_GO/feedback"
+	"github.com/reizzao/RzLibs_GO/message"
 )
 
-// import "github.com/rzjprogramador/RzLibs_GO/soma"
+// import "github.com/reizzao/RzLibs_GO/soma"
 
 // type ModuleMain struct{
 // 	Soma any
@@ -23,3 +23,5 @@ func main() {
 // 	}
 // 	return module
 // }
+
+// foo

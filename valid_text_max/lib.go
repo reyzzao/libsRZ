@@ -3,7 +3,7 @@ package valid_text_max
 import (
 	"errors"
 
-	"github.com/rzjprogramador/RzLibs_GO/feedback"
+	"github.com/reizzao/RzLibs_GO/feedback"
 )
 
 func MaxText(text string, length int) (string, error) {
