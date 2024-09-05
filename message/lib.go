@@ -37,18 +37,18 @@ var StaticMessage = Message{
 // 	return StaticMessage
 // }
 
-func MessageErrorTestLIB(compare any, expect any) string {
+func MessageErrorTestLIB(real_expected any, try_test any) string {
 	msgFormat := fmt.Sprintf(`
 
 		***********RESPONSE TEST *************
 
-		COMPARE : %s
+		REAL_ESPERADO : %s
 
-		EXPECTED : %s
+		TENTADO_NO_TEST : %s
 
 		*********** FINAL RESPONSE TEST *************
 
-		`, compare, expect)
+		`, real_expected, try_test)
 
 	res := msgFormat
 
