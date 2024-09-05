@@ -30,8 +30,12 @@ var StaticMessage = Message{
 // 	return StaticMessage
 // }
 
-func LibMessageErrorTest() string {
-	return "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
+func MessageErrorTestLIB() string {
+	msgFormat := "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
+	res := msgFormat
+	return res
+
+	// return "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
 }
 
 // func MessageErrorTest(compare any, expect any)  {
