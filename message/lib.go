@@ -27,8 +27,8 @@ var StaticMessage = Message{
 }
 
 var molduraMsgTestInit = "\n ***********RESPONSE TEST *************\n"
-var msgEsperado = "Ops... Esperado: "
-var msgExpect = "\n Tentativa:: "
+var msgEsperado = "Ops... Esperado: %t"
+var msgExpect = "\n Tentativa: %t"
 var molduraMsgTestFinal = "\n*********** FINAL RESPONSE TEST *************\n"
 
 // func MessageFN() Message{
