@@ -26,13 +26,20 @@ var StaticMessage = Message{
 	Max:        "no máximo",
 }
 
+var molduraMsgTestInit = "\n ***********RESPONSE TEST *************\n"
+var msgEsperado = "Ops... Esperado: "
+var msgExpect = "\n Tentativa:: "
+var molduraMsgTestFinal = "\n*********** FINAL RESPONSE TEST *************\n"
+
 // func MessageFN() Message{
 // 	return StaticMessage
 // }
 
 func MessageErrorTestLIB() string {
-	msgFormat := "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
+	msgFormat := molduraMsgTestInit + msgEsperado + msgExpect + molduraMsgTestFinal
+
 	res := msgFormat
+
 	return res
 
 	// return "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
