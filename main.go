@@ -3,25 +3,14 @@ package main
 import (
 	"github.com/reizzao/RzLibs_GO/feedback"
 	"github.com/reizzao/RzLibs_GO/message"
+	"github.com/reizzao/RzLibs_GO/message/message_bytest"
 )
-
-// import "github.com/reizzao/RzLibs_GO/soma"
-
-// type ModuleMain struct{
-// 	Soma any
-// }
 
 func main() {
 
 	feedback.TesterFeedback()
 	message.TesterMessage()
+	message_bytest.LibMessageErrorTest()
 }
 
-// func main() ModuleMain {
-// 	module := ModuleMain{
-// 		Soma: soma,
-// 	}
-// 	return module
-// }
-
-// foo
+// importante: tem que chamar a lib aqui na main - para poderem acessa-la remotamente
