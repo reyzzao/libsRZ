@@ -4,6 +4,8 @@ package message
 // 	"testing"
 // )
 
+// TODO : Organizar e aproveitar types : por enquanto funcionando somnet a funcao de msg test
+
 // var t *testing.T
 
 type Message struct {
