@@ -42,9 +42,9 @@ func MessageErrorTestLIB(realExpected any, tryTest any) string {
 
 		***********RESPONSE TEST *************
 
-		REAL_ESPERADO : %s
+		SUT_ESPERADO : %s
 
-		TENTADO_NO_TEST : %s
+		TENTATIVA_TEST : %s
 
 		*********** FINAL RESPONSE TEST *************
 
