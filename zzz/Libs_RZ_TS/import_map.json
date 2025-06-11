@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@/": "./",
+    "@deps": "./src/Global/deps.ts"
+  }
+}
