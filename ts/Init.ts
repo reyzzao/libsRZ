@@ -4,12 +4,9 @@ export interface ILibTS {
   console: void
 }
 
-const libsList: ILibTS = {
+// Porta de entrada para uso externo.
+export const LibTS: ILibTS = {
   console: libConsole()
 }
 
-export function LibTS(): ILibTS{
-  return libsList
-}
-
-console.log(LibTS())
+// console.log(LibTS)
