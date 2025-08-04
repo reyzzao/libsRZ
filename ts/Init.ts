@@ -1,16 +1,15 @@
-import { libConsole } from './console/Lib.ts'
+// import { libConsole } from './console/Lib.ts'
 
 
-export interface ILibTS {
-  console: {
-    libConsole: (...data: any[]) => void
-  }
-}
+// export interface ILibTS {
+//   console: {
+//     libConsole: (...data: any[]) => void
+//   }
+// }
 
+export const libConsole = (...data: any[]): void => console.log(...data) 
 
 // Porta de entrada
-export const libsTS: ILibTS = {
-  console: {
-    libConsole
-  }
+export const libsTS = {
+  console: libConsole
 }
