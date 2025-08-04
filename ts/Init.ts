@@ -1,15 +1,15 @@
 import { libConsole } from "./console/Lib"
 
-interface ILibsList {
+export interface ILibTS {
   console: void
 }
 
-const libsList: ILibsList = {
+const libsList: ILibTS = {
   console: libConsole()
 }
 
-function libTs(): ILibsList{
+export function LibTS(): ILibTS{
   return libsList
 }
 
-console.log(libTs())
+console.log(LibTS())
