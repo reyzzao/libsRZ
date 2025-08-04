@@ -1,7 +1,7 @@
 // import { libConsole } from './console/Lib.ts'
 
 
-export interface ILibTS {
+export interface LibTS {
   test: string,
   fn: (d: string) => string
 }
@@ -10,7 +10,7 @@ export interface ILibTS {
 const testFN = (d: string) => d
 
 // Porta de entrada
-export const LibTS: ILibTS = {
+export const LibTS: LibTS = {
   test: "foo1000",
   fn: testFN
 }
