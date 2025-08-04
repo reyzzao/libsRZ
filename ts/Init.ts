@@ -11,5 +11,5 @@
 
 // Porta de entrada
 export const LibTS = {
-  console: "foo1"
+  console: "foo1000"
 }
