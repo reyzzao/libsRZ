@@ -12,5 +12,5 @@ export const libConsole = (...data: any[]): void => console.log(...data)
 // Porta de entrada
 export const LibTS = {
   test: "foo1000",
-  console: libConsole()
+  console: libConsole
 }
