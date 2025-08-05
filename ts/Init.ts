@@ -1,18 +1,10 @@
+// @file: Init.ts
+import type { ILibTS } from "./Init.d.ts" // A importação de IMessage foi removida, pois ela já está incluída na ILibTS
+import { message } from "./libs/messages/Mod.ts"
 
-export interface LibTS {
-  console: (...data: any[]) => void
-
-  // test: string
-  // fn: (d: string) => string
-}
-
-const testFN = (d: string) => d
 
 // Porta de entrada
-export const LibTS: LibTS = {
+export const libTS: ILibTS = {
   console: (...data: any[]): void => console.log(...data), // console aqui evita erros
-
-
-  // test: "foo1000",
-  // fn: testFN,
+  message,
 }

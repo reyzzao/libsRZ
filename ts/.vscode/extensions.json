@@ -1,0 +1,11 @@
+{
+  // Obs: nao precisa instalar extensoes que ja estao no profile default globalmente ex: [ prettier, console ninja, ]
+  // Extensões recomendadas para este workspace (opcional) - insira a identificacao informada no campo `Identifier` da extensao
+  // Para encontrar no marketplace web do visual studio : https://marketplace.visualstudio.com/items?itemName=<NOME_DO_IDENTIFIER>
+  "recommendations": [
+    "dracula-theme.theme-dracula",
+    "denoland.vscode-deno",
+    "editorconfig.editorconf",
+    "wallabyjs.console-ninja" // todo: analisar
+  ]
+}

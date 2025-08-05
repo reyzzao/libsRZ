@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{
+			"path": ".", // Set code-workspace local.
+			"name": "WORK PRINCIPAL TS"
+		},
+	],
+	"settings": {}, //Configs Settings ja esta no .vscode/settings.json deste projeto.
+}
