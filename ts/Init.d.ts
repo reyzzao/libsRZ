@@ -1,9 +1,9 @@
 // @file: Init.d.ts
-import { IMessage } from "./libs/messages/Mod.ts";
+import { IMessage } from "./libs/LoaderLibs.ts";
 
 export interface ILibTS {
-  Log: (...data: any[]) => void
-  message:IMessage
+  Log: (...data: any[]) => void;
+  Messages: IMessage;
 }
 
 export declare const libTS: ILibTS;

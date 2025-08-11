@@ -9,7 +9,7 @@ export interface IMessage{
   Max:        string;
 }
 
-export const message: IMessage = {
+export const Messages: IMessage = {
   Success:    "Sucesso!",
   Fail:       "Ops!",
   Processing: "Processando...",
