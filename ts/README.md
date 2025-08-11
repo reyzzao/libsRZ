@@ -8,8 +8,11 @@ Uso
   - ErroComum: `Integrity check failed for remote specifier. The source code is invalid, as it does not match the expected hash in the lock file`
 - Importar a libs >>
   -```
-  export type { LibTS as ILibTS } from 'https://raw.githubusercontent.com/reyzzao/libsRZ/main/ts/Init.ts'
-  export { LibTS as libTS } from 'https://raw.githubusercontent.com/reyzzao/libsRZ/main/ts/Init.ts'
+  // uso: AUTO_ATUALIZACOES (se a lib mudar muda junto), exclua-o lock.json, e importe a lib
+import { libTS } from 'https://raw.githubusercontent.com/reyzzao/libsRZ/main/ts/Init.ts'
+// usando a lib importada em polo unico com essas vars
+export const Log = libTS.Log
+
   ```
 
 ---
