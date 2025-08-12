@@ -9,9 +9,16 @@ Uso
 - Importar a libs >>
   -```
   // uso: AUTO_ATUALIZACOES (se a lib mudar muda junto), exclua-o lock.json, e importe a lib
+// @file: src/global/deps/MyLibTS.ts
+
+// libsTS by Rzj
 import { libTS } from 'https://raw.githubusercontent.com/reyzzao/libsRZ/main/ts/Init.ts'
-// usando a lib importada em polo unico com essas vars
-export const Log = libTS.Log
+import type { ILibTS } from 'https://raw.githubusercontent.com/reyzzao/libsRZ/main/ts/Init.d.ts'
+const useMyLib: ILibTS = libTS
+
+// vars disponiveis para app - neste polo unico
+export const Log = useMyLib.Log
+export const Messages = useMyLib.Messages
 
   ```
 

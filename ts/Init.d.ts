@@ -1,4 +1,4 @@
-// @file: Init.d.ts
+// @file: ts/Init.d.ts
 import { IMessage } from "./libs/LoaderLibs.ts";
 
 export interface ILibTS {
