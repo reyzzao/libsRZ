@@ -11,7 +11,7 @@ async function mainModules() {
   const modulesBasePath = new URL('./modules/', import.meta.url).href
 
   const allModules = await loaderModulesIndex(modulesBasePath, [
-    'example_reinventar',
+    'example_foo',
     // ... adicione aqui o nome das suas outras pastas que têm Index.ts
   ])
   // console.dir(allModules);
@@ -19,6 +19,6 @@ async function mainModules() {
 }
 
 const useMainModules = await mainModules()
-Log(useMainModules.reinventar)
+Log(useMainModules.foo)
 
 ---
